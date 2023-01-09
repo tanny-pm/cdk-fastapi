@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cdk-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "cdk_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aws-cdk-lib = "^2.59.0"
+constructs = "^10.1.214"
+aws-cdk-aws-lambda-python-alpha = "^2.59.0a0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
